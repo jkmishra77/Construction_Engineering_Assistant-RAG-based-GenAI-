@@ -1,0 +1,12 @@
+groq
+langchain-groq
+PyPDF2
+langchain
+streamlit
+langchain_community
+python-dotenv
+pypdf
+langgraph
+pinecone
+langchain_huggingface
+sentence-transformers
