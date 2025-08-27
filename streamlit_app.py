@@ -21,11 +21,15 @@ index = pc.Index(host=PINECONE_INDEX_HOST)
 
 st.set_page_config(page_title="GenAI Chat with RAG", layout="wide")
 st.title("  Engineering Assistatnt (RAG-enabled GenAI Chatbot)")
-st.subtitle(" In this Demoyou acn chat with my CV you can compy and paste questions like" \
-"1. tell me the Professional Summary"
-"2. What are Projects (Live Demos)"
-"3. what the Skills & Expertise in LLMs & Generative AI"
-"4. what the Awards & Certifications Dr Mishra awarded  ")
+st.markdown("""
+Welcome to the demo! You can chat with my CV using natural language.  
+Try copy-pasting questions like:
+
+1. **Tell me the Professional Summary**  
+2. **What are the Projects (Live Demos)?**  
+3. **What are the Skills & Expertise in LLMs & Generative AI?**  
+4. **What Awards & Certifications has Dr. Mishra received?**
+""")
 
 # Session state for chat history
 if "messages" not in st.session_state:
