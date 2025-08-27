@@ -22,7 +22,7 @@ index = pc.Index(host=PINECONE_INDEX_HOST)
 st.set_page_config(page_title="GenAI Chat with RAG", layout="wide")
 st.title("  Engineering Assistatnt (RAG-enabled GenAI Chatbot)")
 st.markdown("""
-Welcome to the demo! You can chat with my CV using natural language.  
+Welcome , In this present Demo! You can chat with my CV using natural language.  
 Try copy-pasting questions like:
 
 1. **Tell me the Professional Summary**  
