@@ -28,7 +28,7 @@ Try copy-pasting questions like:
 1. **Tell me the Professional Summary**  
 2. **What are the Projects (Live Demos)?**  
 3. **What are the Skills & Expertise in LLMs & Generative AI?**  
-4. **What Awards & Certifications has Dr. Mishra received?**
+
 """)
 
 # Session state for chat history
@@ -59,7 +59,7 @@ if user_input:
     context_text = "\n".join(context_chunks)
 
     # Step 3: Construct full prompt
-    full_prompt = f"Context:\n{context_text}\n\nUser: {user_input}"
+    full_prompt = f"Context:Reply the question of user from CV of DR J K Mishra:\n{context_text}\n\nUser: {user_input}"
     st.session_state.messages.append(HumanMessage(content=full_prompt))
 
     # Step 4: Get LLM response
