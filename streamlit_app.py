@@ -28,7 +28,7 @@ Try copy-pasting questions like:
 1. **Tell me the Professional Summary**  
 2. **What are the Projects (Live Demos)?**  
 3. **What are the Skills & Expertise in LLMs & Generative AI?**  
-
+4. **What Awards & Certifications has Dr. Mishra received?**
 """)
 
 # Session state for chat history
